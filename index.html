@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: LightCyan;
+            margin: 0;
+        }
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            margin-top: 20px;
+            width: 400px;
+            height: 600px;
+            background: White;
+            border-radius: 20px;
+            overflow: hidden;
+            background-image: url("https://scontent.flap2-1.fna.fbcdn.net/v/t1.6435-9/138113798_3711893265542294_2602617674515880378_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=FDs-cIXL85AAX_YOT8_&_nc_ht=scontent.flap2-1.fna&oh=00_AT-V_JTvtXLK7P7RrzYbiXw8QD-hv1Vm1tj9Or5ex__O0A&oe=62F77CDF");
+            background-repeat: no-repeat;
+            background-size: 100% 45%;
+            box-shadow: 4px 8px 12px DarkGray;
+        }
+        .card h1{
+            color: SteelBlue;
+            text-align: center;
+            font-family: "Rockwell";
+            font-size: x-large;
+            border-bottom: 2px groove;
+            border-bottom-color: LightGray;
+            border-bottom-width: 3px;
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+        }
+        .card p:nth-child(3){
+            margin-top: 30px;
+            text-align: center;
+            font-family: "Rockwell";
+            font-size: larger;
+        }
+
+        .info{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            text-align: center;
+            font-family: "Rockwell";
+            font-size: small;
+            color: DarkGray;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .perfil{
+            margin-left: 100px;
+            margin-top: 130px;
+            z-index: 1;
+            width: 50%;
+            border-radius: 50%;
+            border: 4px solid whitesmoke;
+        }
+        .fondo{
+            background-size: 100% 50%;
+            z-index: 3;
+            position: static;
+        }
+
+        .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .medias{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <!--<img class="fondo" src="https://scontent.flap2-1.fna.fbcdn.net/v/t1.6435-9/138113798_3711893265542294_2602617674515880378_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=FDs-cIXL85AAX_YOT8_&_nc_ht=scontent.flap2-1.fna&oh=00_AT-V_JTvtXLK7P7RrzYbiXw8QD-hv1Vm1tj9Or5ex__O0A&oe=62F77CDF" alt="panas">-->
+            <img class="perfil" src="https://scontent.flap2-1.fna.fbcdn.net/v/t1.6435-9/184757732_4047133098684974_9070053128537628746_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=kFDHDZBgHxgAX_vLMVJ&_nc_ht=scontent.flap2-1.fna&oh=00_AT9aG3YlWZdyEPvnH7tjuUOb8t9muNScFr3rSwaDAsqgyA&oe=62F688BD" alt="fede">
+            <h1>Federico Castillo Rangel</h1>
+            <p>Ing. en Desarrollo de Software, gamer 👾<br>y amante de los animales 🐶</p>
+            <div class="info">
+                <p><span class="glyphicon glyphicon-map-marker"></span> Los Cabos, BCS. México.</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>  E-Mail </p>
+            </div>
+            <div class="medias">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
